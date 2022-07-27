@@ -1,0 +1,45 @@
+- hosts: ansiblevm
+  become: yes
+  tasks:
+
+    - name: update
+      apt: update_cache=yes   
+      ignore_errors: yes 
+   
+    - name: Installating JDK.
+      apt: name=default-jdk state=latest
+      
+    - name: Installating curl.
+      apt: name=curl state=latest
+      
+    - name: Downloading Apache Tomcat tar.
+      shell: wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.64/bin/apache-tomcat-9.0.64.tar.gz    
+      args:
+        chdir: /tmp
+      
+    - name: Extracting Apache Tomcat.
+      shell: tar -xzvf /tmp/apache-tomcat-9*tar.gz -C /opt/tomcat --strip-components=1
+      
+    - name: Updating permission.
+      command: "{{ item }}"
+      with_items:
+        - chown -R tomcat:tomcat /opt/tomcat
+        - chmod -R g+r /opt/tomcat/conf
+        - chmod g+x /opt/tomcat/conf
+                   
+    - name: Creating service for Apache tomcat.
+      file:
+        path: /etc/systemd/system/tomcat.service
+        state: touch
+        mode: u+rwx,g-rwx,o-x
+
+    - name: download foo.conf
+      get_url:
+        url: https://raw.githubusercontent.com/aftab70/Apache_Tomcat/master/tomcat_services
+        dest: /etc/systemd/system/tomcat.service
+ 
+    - name: Deamon reload.
+      command: systemctl daemon-reload
+ 
+    - name: Starting Apache Tomcat service.
+      service: name=tomcat state=started

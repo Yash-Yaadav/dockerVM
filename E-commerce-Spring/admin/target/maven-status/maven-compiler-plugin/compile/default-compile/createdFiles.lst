@@ -1,0 +1,6 @@
+org/saleban/admin/service/UserSecurityService.class
+org/saleban/admin/config/SecurityConfig.class
+org/saleban/admin/domain/security/Role.class
+org/saleban/admin/repository/UserRepository.class
+org/saleban/admin/domain/security/UserRole.class
+org/saleban/admin/domain/User.class

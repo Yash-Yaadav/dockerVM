@@ -1,0 +1,15 @@
+/root/SpringBootYashSocialApp/web.social.network/src/main/java/info/cheremisin/social/network/controllers/AdminController.java
+/root/SpringBootYashSocialApp/web.social.network/src/main/java/info/cheremisin/social/network/controllers/SettingsController.java
+/root/SpringBootYashSocialApp/web.social.network/src/main/java/info/cheremisin/social/network/controllers/IndexController.java
+/root/SpringBootYashSocialApp/web.social.network/src/main/java/info/cheremisin/social/network/controllers/UsersController.java
+/root/SpringBootYashSocialApp/web.social.network/src/main/java/info/cheremisin/social/network/controllers/FriendsController.java
+/root/SpringBootYashSocialApp/web.social.network/src/main/java/info/cheremisin/social/network/config/BcryptPasswordEncoderConfig.java
+/root/SpringBootYashSocialApp/web.social.network/src/main/java/info/cheremisin/social/network/controllers/MessagesController.java
+/root/SpringBootYashSocialApp/web.social.network/src/main/java/info/cheremisin/social/network/config/CustomAuthenticationSuccessHandler.java
+/root/SpringBootYashSocialApp/web.social.network/src/main/java/info/cheremisin/social/network/config/ApplicationSecurityConfig.java
+/root/SpringBootYashSocialApp/web.social.network/src/main/java/info/cheremisin/social/network/exceptionHandling/ResponseExceptionHandler.java
+/root/SpringBootYashSocialApp/web.social.network/src/main/java/info/cheremisin/social/network/utils/ServerUtils.java
+/root/SpringBootYashSocialApp/web.social.network/src/main/java/info/cheremisin/social/network/initializer/ImageInitializer.java
+/root/SpringBootYashSocialApp/web.social.network/src/main/java/info/cheremisin/social/network/SocialNetworkApplication.java
+/root/SpringBootYashSocialApp/web.social.network/src/main/java/info/cheremisin/social/network/controllers/ProfileController.java
+/root/SpringBootYashSocialApp/web.social.network/src/main/java/info/cheremisin/social/network/config/LocalizationConfiguration.java

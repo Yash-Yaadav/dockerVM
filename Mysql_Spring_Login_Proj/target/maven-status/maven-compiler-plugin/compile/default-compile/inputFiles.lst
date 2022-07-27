@@ -1,0 +1,10 @@
+/root/Mysql_Spring_Login_Proj/src/main/java/net/javaguides/springboot/service/UserService.java
+/root/Mysql_Spring_Login_Proj/src/main/java/net/javaguides/springboot/web/dto/UserRegistrationDto.java
+/root/Mysql_Spring_Login_Proj/src/main/java/net/javaguides/springboot/web/UserRegistrationController.java
+/root/Mysql_Spring_Login_Proj/src/main/java/net/javaguides/springboot/repository/UserRepository.java
+/root/Mysql_Spring_Login_Proj/src/main/java/net/javaguides/springboot/RegistrationLoginSpringBootSecurityThymeleafApplication.java
+/root/Mysql_Spring_Login_Proj/src/main/java/net/javaguides/springboot/service/UserServiceImpl.java
+/root/Mysql_Spring_Login_Proj/src/main/java/net/javaguides/springboot/model/User.java
+/root/Mysql_Spring_Login_Proj/src/main/java/net/javaguides/springboot/config/SecurityConfiguration.java
+/root/Mysql_Spring_Login_Proj/src/main/java/net/javaguides/springboot/model/Role.java
+/root/Mysql_Spring_Login_Proj/src/main/java/net/javaguides/springboot/web/MainController.java

@@ -1,0 +1,3 @@
+/root/microsrvices/SpringBootMicroService-Exchange-Conversion/api-gateway/src/main/java/com/yash/microservices/labs/apigateway/ApiGatewayConfigurations.java
+/root/microsrvices/SpringBootMicroService-Exchange-Conversion/api-gateway/src/main/java/com/yash/microservices/labs/apigateway/LoggingFilter.java
+/root/microsrvices/SpringBootMicroService-Exchange-Conversion/api-gateway/src/main/java/com/yash/microservices/labs/apigateway/ApiGatewayApplication.java

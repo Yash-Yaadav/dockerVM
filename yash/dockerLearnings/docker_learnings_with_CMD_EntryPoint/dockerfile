@@ -1,0 +1,6 @@
+FROM python
+RUN apt-get update
+ADD date.py /home/date.py
+ADD string_join.py /home/string_join.py
+CMD ["/home/date.py"]
+ENTRYPOINT ["python3"]

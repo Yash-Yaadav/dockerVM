@@ -1,0 +1,7 @@
+FROM openjdk:11
+MAINTAINER Yash Yadav<yash.mlvt@gmail.com>
+VOLUME /tmp
+EXPOSE 8080
+ARG JAR_FILE=target/registration-login-spring-boot-0.0.1-SNAPSHOT.jar
+ADD ${JAR_FILE} registration-login-spring-boot-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/registration-login-spring-boot-0.0.1-SNAPSHOT.jar"]

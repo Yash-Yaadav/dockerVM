@@ -1,0 +1,15 @@
+/root/SpringBootSocialNetwork/web.social.network/src/main/java/info/cheremisin/social/network/controllers/SettingsController.java
+/root/SpringBootSocialNetwork/web.social.network/src/main/java/info/cheremisin/social/network/controllers/MessagesController.java
+/root/SpringBootSocialNetwork/web.social.network/src/main/java/info/cheremisin/social/network/config/CustomAuthenticationSuccessHandler.java
+/root/SpringBootSocialNetwork/web.social.network/src/main/java/info/cheremisin/social/network/utils/ServerUtils.java
+/root/SpringBootSocialNetwork/web.social.network/src/main/java/info/cheremisin/social/network/initializer/ImageInitializer.java
+/root/SpringBootSocialNetwork/web.social.network/src/main/java/info/cheremisin/social/network/SocialNetworkApplication.java
+/root/SpringBootSocialNetwork/web.social.network/src/main/java/info/cheremisin/social/network/controllers/UsersController.java
+/root/SpringBootSocialNetwork/web.social.network/src/main/java/info/cheremisin/social/network/exceptionHandling/ResponseExceptionHandler.java
+/root/SpringBootSocialNetwork/web.social.network/src/main/java/info/cheremisin/social/network/controllers/IndexController.java
+/root/SpringBootSocialNetwork/web.social.network/src/main/java/info/cheremisin/social/network/config/LocalizationConfiguration.java
+/root/SpringBootSocialNetwork/web.social.network/src/main/java/info/cheremisin/social/network/controllers/AdminController.java
+/root/SpringBootSocialNetwork/web.social.network/src/main/java/info/cheremisin/social/network/controllers/ProfileController.java
+/root/SpringBootSocialNetwork/web.social.network/src/main/java/info/cheremisin/social/network/config/BcryptPasswordEncoderConfig.java
+/root/SpringBootSocialNetwork/web.social.network/src/main/java/info/cheremisin/social/network/config/ApplicationSecurityConfig.java
+/root/SpringBootSocialNetwork/web.social.network/src/main/java/info/cheremisin/social/network/controllers/FriendsController.java

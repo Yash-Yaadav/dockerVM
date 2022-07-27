@@ -1,0 +1,2 @@
+web.social.network/src/main/resources/messages.properties:index.join.today=Join social network and become a member with full capabilities!
+web.social.network/target/classes/messages.properties:index.join.today=Join social network and become a member with full capabilities!

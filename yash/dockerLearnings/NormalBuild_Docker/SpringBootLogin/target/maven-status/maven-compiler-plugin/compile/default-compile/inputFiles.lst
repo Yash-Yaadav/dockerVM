@@ -1,0 +1,12 @@
+/root/SpringBootLogin/src/main/java/com/yash/springCRUD/SpringCrudApplication.java
+/root/SpringBootLogin/src/main/java/com/yash/springCRUD/security/PassGen.java
+/root/SpringBootLogin/src/main/java/com/yash/springCRUD/repository/UserRepository.java
+/root/SpringBootLogin/src/main/java/com/yash/springCRUD/services/StudentServices.java
+/root/SpringBootLogin/src/main/java/com/yash/springCRUD/controller/AppController.java
+/root/SpringBootLogin/src/main/java/com/yash/springCRUD/security/MyUserDetails.java
+/root/SpringBootLogin/src/main/java/com/yash/springCRUD/model/Student.java
+/root/SpringBootLogin/src/main/java/com/yash/springCRUD/security/WebSecurityConfig.java
+/root/SpringBootLogin/src/main/java/com/yash/springCRUD/model/Role.java
+/root/SpringBootLogin/src/main/java/com/yash/springCRUD/model/User.java
+/root/SpringBootLogin/src/main/java/com/yash/springCRUD/security/UserDetailsServiceImpl.java
+/root/SpringBootLogin/src/main/java/com/yash/springCRUD/repository/StudentRepository.java

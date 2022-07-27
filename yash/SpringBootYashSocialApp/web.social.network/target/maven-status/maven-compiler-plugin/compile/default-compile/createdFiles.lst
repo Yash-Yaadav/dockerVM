@@ -1,0 +1,15 @@
+info/cheremisin/social/network/config/LocalizationConfiguration.class
+info/cheremisin/social/network/config/CustomAuthenticationSuccessHandler.class
+info/cheremisin/social/network/utils/ServerUtils.class
+info/cheremisin/social/network/controllers/UsersController.class
+info/cheremisin/social/network/initializer/ImageInitializer.class
+info/cheremisin/social/network/controllers/MessagesController.class
+info/cheremisin/social/network/SocialNetworkApplication.class
+info/cheremisin/social/network/controllers/ProfileController.class
+info/cheremisin/social/network/config/ApplicationSecurityConfig.class
+info/cheremisin/social/network/controllers/SettingsController.class
+info/cheremisin/social/network/exceptionHandling/ResponseExceptionHandler.class
+info/cheremisin/social/network/controllers/AdminController.class
+info/cheremisin/social/network/config/BcryptPasswordEncoderConfig.class
+info/cheremisin/social/network/controllers/IndexController.class
+info/cheremisin/social/network/controllers/FriendsController.class

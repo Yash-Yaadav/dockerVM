@@ -1,0 +1,51 @@
+version: '2.2'
+
+services:
+
+  naming-server:
+    image: yash059/mes-naming-server:0.0.1-SNAPSHOT
+    mem_limit: 700m
+    ports:
+      - "8761:8761"
+    networks:
+      - money-network
+
+  api-gateway:
+    image: yash059/mes-api-gateway:0.0.1-SNAPSHOT
+    mem_limit: 700m
+    ports:
+      - "8765:8765"
+    networks:
+      - money-network
+    depends_on:
+      - naming-server
+    environment:
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka
+
+  money-exchange:
+    image: yash059/mes-money-exchange-service:0.0.1-SNAPSHOT
+    mem_limit: 700m
+    ports:
+      - "8000:8000"
+    networks:
+      - money-network
+    depends_on:
+      - naming-server
+    environment:
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka
+
+  money-conversion:
+    image: yash059/mes-money-conversion-service:0.0.1-SNAPSHOT
+    mem_limit: 999m
+    ports:
+      - "8100:8100"
+    networks:
+      - money-network
+    depends_on:
+      - naming-server
+    environment:
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka
+      SPRING_FEIGN_CUSTOMER_CLIENT: http://money-exchange:8000/money-exchange/*
+
+networks:
+  money-network:

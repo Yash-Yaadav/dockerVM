@@ -1,0 +1,12 @@
+/root/yash/dockerLearnings/SpringBootLogin/src/main/java/com/yash/springCRUD/model/Role.java
+/root/yash/dockerLearnings/SpringBootLogin/src/main/java/com/yash/springCRUD/model/Student.java
+/root/yash/dockerLearnings/SpringBootLogin/src/main/java/com/yash/springCRUD/security/PassGen.java
+/root/yash/dockerLearnings/SpringBootLogin/src/main/java/com/yash/springCRUD/security/WebSecurityConfig.java
+/root/yash/dockerLearnings/SpringBootLogin/src/main/java/com/yash/springCRUD/controller/AppController.java
+/root/yash/dockerLearnings/SpringBootLogin/src/main/java/com/yash/springCRUD/security/MyUserDetails.java
+/root/yash/dockerLearnings/SpringBootLogin/src/main/java/com/yash/springCRUD/repository/UserRepository.java
+/root/yash/dockerLearnings/SpringBootLogin/src/main/java/com/yash/springCRUD/model/User.java
+/root/yash/dockerLearnings/SpringBootLogin/src/main/java/com/yash/springCRUD/security/UserDetailsServiceImpl.java
+/root/yash/dockerLearnings/SpringBootLogin/src/main/java/com/yash/springCRUD/repository/StudentRepository.java
+/root/yash/dockerLearnings/SpringBootLogin/src/main/java/com/yash/springCRUD/services/StudentServices.java
+/root/yash/dockerLearnings/SpringBootLogin/src/main/java/com/yash/springCRUD/SpringCrudApplication.java
